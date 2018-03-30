@@ -21,7 +21,7 @@ PARSER.add_argument("-u", "--user", dest="user", required="true")
 PARSER.add_argument("-p", "--password", dest="password", required="true")
 PARSER.add_argument("-w", "--warning", dest="warning_percent", type=int,
                     default=70)
-PARSER.add_argument("-w", "--critical", dest="critical_percent", type=int,
+PARSER.add_argument("-c", "--critical", dest="critical_percent", type=int,
                     default=80)
 PARSER.add_argument("-s", "--disable-cert-check", dest="disable_cert_check",
                     action="store_true")
